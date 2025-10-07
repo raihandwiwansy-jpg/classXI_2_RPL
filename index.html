@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda | Galeri XI-2 RPL</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(180deg, #e3f2fd, #fff);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #1565c0;
+      margin-top: 20px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      background: #1565c0;
+      padding: 12px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    nav a.active {
+      color: #ffeb3b;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: url('img/kelas-bg.jpg') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+      background-attachment: fixed;
+      box-shadow: inset 0 0 0 1000px rgba(21, 101, 192, 0.5);
+    }
+
+    .hero h2 {
+      font-size: 2.2em;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.1em;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .welcome {
+      font-size: 1.1em;
+      line-height: 1.8;
+      margin-bottom: 30px;
+    }
+
+    /* Kartu kegiatan */
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .card {
+      background: #bbdefb;
+      width: 250px;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      color: #0d47a1;
+      margin: 10px 0 5px;
+    }
+
+    .btn-galeri {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background: #1565c0;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn-galeri:hover {
+      background: #0d47a1;
+    }
+
+    footer {
+      background: #1565c0;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+      border-radius: 10px 10px 0 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>Galeri XI-2 RPL</h1>
+  <p>SMK Al Washliyah 2 Perdagangan</p>
+
+  <nav>
+    <a href="index.html" class="active">Beranda</a>
+    <a href="tentang.html">Tentang</a>
+    <a href="galeri.html">Galeri</a>
+    <a href="anggota.html">Anggota</a>
+    <a href="kontak.html">Kontak</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Selamat Datang di Website XI-2 RPL 🎉</h2>
+    <p>Tempat kami menyimpan kenangan, tawa, dan semangat kebersamaan dalam dunia teknologi 💻✨</p>
+  </div>
+
+  <section>
+    <h2>Tentang Website Ini</h2>
+    <p class="welcome">
+      Website ini dibuat oleh <strong>kelas XI-2 RPL</strong> untuk menampilkan momen-momen terbaik,  
+      karya siswa, dan berbagai kegiatan seru di SMK Al Washliyah 2 Perdagangan.  
+      Kami percaya bahwa setiap kebersamaan adalah kenangan berharga.
+    </p>
+
+    <div class="cards">
+      <div class="card">
+        <img src="kegiatan_1.jpg" alt="Kegiatan 1">
+        <h3>Kegiatan Praktek</h3>
+        <p>Belajar ngoding sambil bercanda, seru banget!</p>
+      </div>
+
+      <div class="card">
+        <img src="img/kegiatan_2.jpg" alt="Kegiatan 2">
+        <h3>Acara Kelas</h3>
+        <p>Waktu kebersamaan yang nggak bakal dilupain 🥰</p>
+      </div>
+
+      <div class="card">
+        <img src="img/kegiatan_3.jpg" alt="Kegiatan 3">
+        <h3>Foto Bareng</h3>
+        <p>Kompak terus sampai lulus nanti 💪</p>
+      </div>
+    </div>
+
+    <a href="galeri.html" class="btn-galeri">Lihat Galeri Lengkap 📸</a>
+  </section>
+
+  <footer>
+    © 2025 XI-2 RPL | Dibuat dengan 💙 oleh Raihan Dwiwansy
+  </footer>
+</body>
+</html>
